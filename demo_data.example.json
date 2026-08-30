@@ -1,0 +1,224 @@
+{
+  "business": {
+    "name": "GreenLeaf Organics",
+    "industry": "food_retail",
+    "description": "Organic grocery chain with 6 metro stores and a direct-to-consumer delivery arm.",
+    "revenue": 12400000,
+    "expenses": 9800000,
+    "cash_flow": 2100000,
+    "customers": 28400,
+    "employees": 210,
+    "products": {
+      "FreshBox Subscriptions": {
+        "type": "subscription",
+        "monthly_price": 49,
+        "users": 6200,
+        "revenue": 3650000,
+        "growth_rate": 0.16
+      },
+      "Private Label Produce": {
+        "type": "retail",
+        "monthly_price": 6,
+        "users": 9000,
+        "revenue": 4300000,
+        "growth_rate": 0.09
+      }
+    },
+    "sales": 11400000,
+    "marketing_budget": 900000,
+    "pricing": {
+      "FreshBox": 49,
+      "produce_markup": 0.35,
+      "delivery_fee": 5
+    },
+    "inventory_summary": {
+      "cold_chain_cost": 420000,
+      "spoilage_rate": 0.041,
+      "total_annual_cost": 1150000
+    },
+    "warehouses": {
+      "distribution_centers": 2,
+      "regions": ["Northeast", "Midwest"],
+      "cold_storage": "high"
+    },
+    "competitors": {
+      "WholeFarm": { "market_share": 14, "pricing": 55 },
+      "FreshMart": { "market_share": 9, "pricing": 45 }
+    },
+    "market_share": 5.8,
+    "kpis": {
+      "gross_margin": 32,
+      "customer_lifetime_value": 890,
+      "churn_rate": 2.8,
+      "nps_score": 68,
+      "net_revenue_retention": 108
+    },
+    "raw_data": {
+      "founded": 2016,
+      "funding_stage": "Series A",
+      "total_funding": 8000000,
+      "target_market": "Health-conscious urban households"
+    }
+  },
+  "simulations": [
+    {
+      "decision_type": "increase_marketing",
+      "decision_params": { "percent": 15, "channel": "delivery" },
+      "predicted_revenue": 13900000,
+      "predicted_profit": 2650000,
+      "confidence_score": 76.0,
+      "confidence_level": "Medium",
+      "recommendation": {
+        "recommendation": "Increase delivery marketing by 15% to grow FreshBox subscriptions",
+        "expected_improvement": "+12% revenue, +9% profit over next quarter",
+        "reasoning": "Subscription churn is low and delivery CAC is below blended average.",
+        "business_impact": "Expected revenue lift of $1.5M.",
+        "alternative_strategy": "Test a loyalty discount for existing customers first."
+      }
+    },
+    {
+      "decision_type": "launch_product",
+      "decision_params": { "product_name": "MealPrep Kits", "price": 59 },
+      "predicted_revenue": 13500000,
+      "predicted_profit": 2210000,
+      "confidence_score": 64.0,
+      "confidence_level": "Medium",
+      "recommendation": {
+        "recommendation": "Soft-launch MealPrep Kits in 2 metros",
+        "expected_improvement": "+9% revenue at 8% margin",
+        "reasoning": "Existing cold chain and supplier network can support a new line.",
+        "business_impact": "Expected $1.1M first-year revenue.",
+        "alternative_strategy": "White-label an existing kit provider to reduce capex."
+      }
+    }
+  ],
+  "supply_chain": {
+    "suppliers": [
+      {
+        "name": "Hudson Valley Farms",
+        "contact_name": "Emma Laurent",
+        "email": "emma@hvfarms.com",
+        "location": "Albany, NY",
+        "country": "USA",
+        "product_categories": ["produce", "dairy"],
+        "lead_time_days": 2,
+        "cost_per_unit": 11.0,
+        "capacity": 8000,
+        "quality_rating": 4.9,
+        "contract_expiry": "2027-06-30"
+      },
+      {
+        "name": "Pacific Coast Organics",
+        "contact_name": "Diego Ramirez",
+        "email": "diego@pacorganics.com",
+        "location": "Fresno, CA",
+        "country": "USA",
+        "product_categories": ["produce"],
+        "lead_time_days": 5,
+        "cost_per_unit": 9.5,
+        "capacity": 15000,
+        "quality_rating": 4.4,
+        "contract_expiry": "2026-11-30"
+      },
+      {
+        "name": "Nordic Cold Chain",
+        "contact_name": "Astrid Lind",
+        "email": "astrid@nordiccold.no",
+        "location": "Oslo, Norway",
+        "country": "Norway",
+        "product_categories": ["frozen", "seafood"],
+        "lead_time_days": 9,
+        "cost_per_unit": 18.0,
+        "capacity": 3000,
+        "quality_rating": 4.7,
+        "contract_expiry": "2027-01-31"
+      }
+    ],
+    "warehouses": [
+      {
+        "name": "Northeast Cold Hub",
+        "location": "Newark, NJ",
+        "capacity": 40000,
+        "storage_cost_per_unit": 0.72,
+        "manager": "Priya Nair"
+      },
+      {
+        "name": "Midwest Distribution Center",
+        "location": "Columbus, OH",
+        "capacity": 32000,
+        "storage_cost_per_unit": 0.58,
+        "manager": "Tom Okafor"
+      }
+    ],
+    "inventory": [
+      {
+        "product_name": "Organic Salad Mix",
+        "product_sku": "ORG-SAL-01",
+        "category": "produce",
+        "current_stock": 2600,
+        "reorder_level": 1200,
+        "safety_stock": 600,
+        "max_stock": 8000,
+        "unit_cost": 3.2,
+        "turnover_rate": 14.5
+      },
+      {
+        "product_name": "Wild Salmon Fillet",
+        "product_sku": "WSF-202",
+        "category": "seafood",
+        "current_stock": 180,
+        "reorder_level": 400,
+        "safety_stock": 200,
+        "max_stock": 2500,
+        "unit_cost": 14.0,
+        "turnover_rate": 6.1
+      },
+      {
+        "product_name": "Almond Milk 64oz",
+        "product_sku": "AMD-310",
+        "category": "dairy_alt",
+        "current_stock": 4200,
+        "reorder_level": 1500,
+        "safety_stock": 700,
+        "max_stock": 12000,
+        "unit_cost": 2.8,
+        "turnover_rate": 11.2
+      }
+    ],
+    "shipments": [
+      {
+        "shipment_number": "SHP-GL-1001",
+        "product_name": "Organic Salad Mix",
+        "quantity": 1500,
+        "origin": "Albany, NY",
+        "destination": "Newark, NJ",
+        "distance_km": 250,
+        "fuel_cost": 120.0,
+        "transport_cost": 420.0,
+        "status": "in_transit"
+      },
+      {
+        "shipment_number": "SHP-GL-1002",
+        "product_name": "Wild Salmon Fillet",
+        "quantity": 350,
+        "origin": "Oslo, Norway",
+        "destination": "Newark, NJ",
+        "distance_km": 6100,
+        "fuel_cost": 2400.0,
+        "transport_cost": 8900.0,
+        "status": "delayed"
+      },
+      {
+        "shipment_number": "SHP-GL-1003",
+        "product_name": "Almond Milk 64oz",
+        "quantity": 2800,
+        "origin": "Fresno, CA",
+        "destination": "Columbus, OH",
+        "distance_km": 3400,
+        "fuel_cost": 640.0,
+        "transport_cost": 2100.0,
+        "status": "pending"
+      }
+    ]
+  }
+}

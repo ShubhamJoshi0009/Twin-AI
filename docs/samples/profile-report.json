@@ -1,0 +1,340 @@
+{
+  "twin_id": "b5646d00-07c3-4a23-94ad-a685a06ad7f4",
+  "company": "TechNova Solutions",
+  "industry": "technology",
+  "overall_coverage": 98.3,
+  "verified_count": 11,
+  "complete_count": 1,
+  "partial_count": 0,
+  "missing_count": 0,
+  "completed_count": 8,
+  "total_sections": 12,
+  "saved_at": "2026-08-08T05:18:03.516877+00:00",
+  "items": [
+    {
+      "source_id": "company",
+      "name": "Company Profile",
+      "category": "user-provided",
+      "owner": "Onboarding wizard",
+      "status": "verified",
+      "coverage_score": 100.0,
+      "checks": [
+        {
+          "field": "name",
+          "label": "Business name",
+          "present": true,
+          "value": "TechNova Solutions"
+        },
+        {
+          "field": "industry",
+          "label": "Industry",
+          "present": true,
+          "value": "technology"
+        },
+        {
+          "field": "description",
+          "label": "Description",
+          "present": true,
+          "value": "A mid-size SaaS company providing enterprise workflow automa"
+        }
+      ],
+      "last_updated": "2026-08-08T04:50:29",
+      "notes": "Foundational identity data entered during onboarding.",
+      "completed": false,
+      "saved": true
+    },
+    {
+      "source_id": "financials",
+      "name": "Financials",
+      "category": "financial",
+      "owner": "Finance entry",
+      "status": "verified",
+      "coverage_score": 100.0,
+      "checks": [
+        {
+          "field": "revenue",
+          "label": "Revenue",
+          "present": true,
+          "value": "5,200,000.00"
+        },
+        {
+          "field": "expenses",
+          "label": "Expenses",
+          "present": true,
+          "value": "3,800,000.00"
+        },
+        {
+          "field": "profit",
+          "label": "Profit",
+          "present": true,
+          "value": "1,400,000.00"
+        },
+        {
+          "field": "cash_flow",
+          "label": "Cash flow",
+          "present": true,
+          "value": "1,200,000.00"
+        }
+      ],
+      "last_updated": "2026-08-08T04:50:29",
+      "notes": "Balance-sheet style inputs driving profit margin and cash-flow KPIs.",
+      "completed": true,
+      "saved": true
+    },
+    {
+      "source_id": "customers",
+      "name": "Customers & Workforce",
+      "category": "operational",
+      "owner": "Onboarding wizard",
+      "status": "verified",
+      "coverage_score": 100.0,
+      "checks": [
+        {
+          "field": "customers",
+          "label": "Customers",
+          "present": true,
+          "value": "850"
+        },
+        {
+          "field": "employees",
+          "label": "Employees",
+          "present": true,
+          "value": "120"
+        }
+      ],
+      "last_updated": "2026-08-08T04:50:29",
+      "notes": "Demand base and headcount feeding per-customer economics.",
+      "completed": false,
+      "saved": true
+    },
+    {
+      "source_id": "products",
+      "name": "Products & Pricing",
+      "category": "operational",
+      "owner": "Onboarding wizard",
+      "status": "verified",
+      "coverage_score": 100.0,
+      "checks": [
+        {
+          "field": "products",
+          "label": "Product catalogue",
+          "present": true,
+          "value": "WorkflowPro: type: SaaS, monthly_price: 299, users: 600, rev"
+        },
+        {
+          "field": "pricing",
+          "label": "Pricing model",
+          "present": true,
+          "value": "WorkflowPro: 299, AutomateFlow: 499, DataSync: 99, enterpris"
+        }
+      ],
+      "last_updated": "2026-08-08T04:50:29",
+      "notes": "SKU mix and price structure used by sales simulations.",
+      "completed": true,
+      "saved": true
+    },
+    {
+      "source_id": "sales",
+      "name": "Sales & Marketing",
+      "category": "financial",
+      "owner": "Finance entry",
+      "status": "verified",
+      "coverage_score": 100.0,
+      "checks": [
+        {
+          "field": "sales",
+          "label": "Sales",
+          "present": true,
+          "value": "4,800,000.00"
+        },
+        {
+          "field": "marketing_budget",
+          "label": "Marketing budget",
+          "present": true,
+          "value": "520,000.00"
+        }
+      ],
+      "last_updated": "2026-08-08T04:50:29",
+      "notes": "Revenue engine inputs including marketing ROI.",
+      "completed": false,
+      "saved": true
+    },
+    {
+      "source_id": "inventory",
+      "name": "Inventory & Logistics",
+      "category": "operational",
+      "owner": "Logistics desk",
+      "status": "verified",
+      "coverage_score": 100.0,
+      "checks": [
+        {
+          "field": "inventory_summary",
+          "label": "Inventory summary",
+          "present": true,
+          "value": "cloud_infrastructure_cost: 180,000, license_costs: 45,000, t"
+        },
+        {
+          "field": "warehouses",
+          "label": "Warehouse footprint",
+          "present": true,
+          "value": "data_centers: 3, regions: 3 item(s), redundancy: high"
+        }
+      ],
+      "last_updated": "2026-08-08T04:50:29",
+      "notes": "Stock and distribution footprint for logistics simulations.",
+      "completed": true,
+      "saved": true
+    },
+    {
+      "source_id": "market",
+      "name": "Market & Competitors",
+      "category": "market",
+      "owner": "Market radar",
+      "status": "verified",
+      "coverage_score": 100.0,
+      "checks": [
+        {
+          "field": "competitors",
+          "label": "Competitors",
+          "present": true,
+          "value": "FlowMaster: market_share: 18, pricing: 349, AutoBiz: market_"
+        },
+        {
+          "field": "market_share",
+          "label": "Market share",
+          "present": true,
+          "value": "8.50"
+        }
+      ],
+      "last_updated": "2026-08-08T04:50:29",
+      "notes": "Competitive positioning and share assumptions.",
+      "completed": false,
+      "saved": true
+    },
+    {
+      "source_id": "kpis",
+      "name": "KPIs & Health",
+      "category": "ai-generated",
+      "owner": "Health engine",
+      "status": "verified",
+      "coverage_score": 100.0,
+      "checks": [
+        {
+          "field": "kpis",
+          "label": "KPI set",
+          "present": true,
+          "value": "profit_margin: 26.92, revenue_per_employee: 43,333.33, custo"
+        },
+        {
+          "field": "business_health_score",
+          "label": "Health score",
+          "present": true,
+          "value": "72.00"
+        }
+      ],
+      "last_updated": "2026-08-08T04:50:29",
+      "notes": "Derived metrics computed automatically from the raw profile.",
+      "completed": true,
+      "saved": true
+    },
+    {
+      "source_id": "simulations",
+      "name": "Simulation History",
+      "category": "ai-generated",
+      "owner": "Simulator engine",
+      "status": "verified",
+      "coverage_score": 100.0,
+      "checks": [
+        {
+          "field": "history",
+          "label": "Simulation History records",
+          "present": true,
+          "value": "5 record(s)"
+        }
+      ],
+      "last_updated": null,
+      "notes": "Decision simulations run against the twin.",
+      "completed": true,
+      "saved": true
+    },
+    {
+      "source_id": "insights",
+      "name": "AI Insights",
+      "category": "ai-generated",
+      "owner": "Insights engine",
+      "status": "verified",
+      "coverage_score": 100.0,
+      "checks": [
+        {
+          "field": "history",
+          "label": "AI Insights records",
+          "present": true,
+          "value": "3 record(s)"
+        },
+        {
+          "field": "recent",
+          "label": "Recent ai insights",
+          "present": true,
+          "value": "Profit margin overview | Marketing ROI headroom | Customer base analysis"
+        }
+      ],
+      "last_updated": null,
+      "notes": "Rule / LLM generated insights from profile analysis.",
+      "completed": true,
+      "saved": true
+    },
+    {
+      "source_id": "strategies",
+      "name": "AI Strategies",
+      "category": "ai-generated",
+      "owner": "Strategy engine",
+      "status": "verified",
+      "coverage_score": 100.0,
+      "checks": [
+        {
+          "field": "history",
+          "label": "AI Strategies records",
+          "present": true,
+          "value": "18 record(s)"
+        },
+        {
+          "field": "recent",
+          "label": "Recent ai strategies",
+          "present": true,
+          "value": "Accelerate Revenue Growth | Optimize Operational Costs | Enhance Customer Retention Programs"
+        }
+      ],
+      "last_updated": null,
+      "notes": "Generated strategic recommendations with expected impact.",
+      "completed": true,
+      "saved": true
+    },
+    {
+      "source_id": "news",
+      "name": "Real-time Market Feed",
+      "category": "real-time",
+      "owner": "GDELT feed",
+      "status": "complete",
+      "coverage_score": 80.0,
+      "checks": [
+        {
+          "field": "headlines",
+          "label": "Market headlines",
+          "present": true,
+          "value": "5 headline(s)"
+        },
+        {
+          "field": "provider",
+          "label": "Provider",
+          "present": false,
+          "value": "curated fallback"
+        }
+      ],
+      "last_updated": "2026-08-08T03:18:01.630132+00:00",
+      "notes": "Curated fallback feed \u00b7 headlines 2h old",
+      "completed": true,
+      "saved": true
+    }
+  ],
+  "generated_at": "2026-08-08T05:18:04.299225+00:00"
+}

@@ -1,0 +1,13 @@
+company,industry,section_id,section,category,owner,status,coverage_score,completed,last_updated,notes
+TechNova Solutions,technology,company,Company Profile,user-provided,Onboarding wizard,verified,100,no,2026-08-08T04:50:29,Foundational identity data entered during onboarding.
+TechNova Solutions,technology,financials,Financials,financial,Finance entry,verified,100,yes,2026-08-08T04:50:29,Balance-sheet style inputs driving profit margin and cash-flow KPIs.
+TechNova Solutions,technology,customers,Customers & Workforce,operational,Onboarding wizard,verified,100,no,2026-08-08T04:50:29,Demand base and headcount feeding per-customer economics.
+TechNova Solutions,technology,products,Products & Pricing,operational,Onboarding wizard,verified,100,yes,2026-08-08T04:50:29,SKU mix and price structure used by sales simulations.
+TechNova Solutions,technology,sales,Sales & Marketing,financial,Finance entry,verified,100,no,2026-08-08T04:50:29,Revenue engine inputs including marketing ROI.
+TechNova Solutions,technology,inventory,Inventory & Logistics,operational,Logistics desk,verified,100,yes,2026-08-08T04:50:29,Stock and distribution footprint for logistics simulations.
+TechNova Solutions,technology,market,Market & Competitors,market,Market radar,verified,100,no,2026-08-08T04:50:29,Competitive positioning and share assumptions.
+TechNova Solutions,technology,kpis,KPIs & Health,ai-generated,Health engine,verified,100,yes,2026-08-08T04:50:29,Derived metrics computed automatically from the raw profile.
+TechNova Solutions,technology,simulations,Simulation History,ai-generated,Simulator engine,verified,100,yes,,Decision simulations run against the twin.
+TechNova Solutions,technology,insights,AI Insights,ai-generated,Insights engine,verified,100,yes,,Rule / LLM generated insights from profile analysis.
+TechNova Solutions,technology,strategies,AI Strategies,ai-generated,Strategy engine,verified,100,yes,,Generated strategic recommendations with expected impact.
+TechNova Solutions,technology,news,Real-time Market Feed,real-time,GDELT feed,complete,80,yes,2026-08-08T03:18:01.630132+00:00,Curated fallback feed · headlines 2h old

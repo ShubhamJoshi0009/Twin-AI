@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Env
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Reports (generated)
+reports/
+*.pdf
+# …except the judged sample report exports shipped in docs/
+!docs/samples/*.pdf
+
+# Next.js build artifacts
+frontend/.next/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Local SQLite databases (runtime + test artifacts)
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
